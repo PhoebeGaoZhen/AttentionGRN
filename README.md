@@ -104,7 +104,7 @@ We used independent testing to verify the prediction performance of AttentionGRN
 
 ### train and test
           
-  run *./my_test_final/AttentionGRN_GRN/main.py*. 
+  run *./AttentionGRN/AttentionGRN_GRN/main.py*. 
   
   GRN reconstruction using AttentionGRN model, and the prediction performance of the model is evaluated using independent testing.
 
@@ -114,7 +114,7 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
 
 ### train and test
 
-  run *./my_test_final/AttentionGRN_TRN/main.py*.
+  run *./AttentionGRN/AttentionGRN_TRN/main.py*.
 
   TRN reconstruction using Model AttentionGRN, and the prediction performance of the model is evaluated using TF-aware three-fold cross validation.
 
@@ -161,7 +161,7 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
 
 **procedure**
 
-* run *./my_test_final/AttentionGRN_infer/infer_GRN.py*, you can infer GRN and get the inferred GRN.
+* run *./AttentionGRN/AttentionGRN_infer/infer_GRN.py*, you can infer GRN and get the inferred GRN.
 
 **output**
 
@@ -176,13 +176,13 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
     
 **GRN reconstruction via GENELink**
 
-- run *./my_test_final/GENELink/main_GRN_data1.py* to evaluate GENELink in GRN reconstruction on DATA1 using independent testing.
+- run *./AttentionGRN/GENELink/main_GRN_data1.py* to evaluate GENELink in GRN reconstruction on DATA1 using independent testing.
 
 
 **TRN reconstruction via GENELink**
 
 
-- run *./my_test_final/GENELink/main_TRN_data2.py* to evaluate GENELink in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
+- run *./AttentionGRN/GENELink/main_TRN_data2.py* to evaluate GENELink in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
 
 # GNNLink
 
@@ -198,12 +198,12 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
 
 **GRN reconstruction via GNNLink**
 
-- run *./my_test_final/GNNLink/main_GRN_data1.py* to evaluate GNNLink in GRN reconstruction on DATA1 using independent testing.
+- run *./AttentionGRN/GNNLink/main_GRN_data1.py* to evaluate GNNLink in GRN reconstruction on DATA1 using independent testing.
 
 
 **TRN reconstruction via GNNLink**
 
-- run *./my_test_final/GNNLink/main_TRN_data2.py* to evaluate GNNLink in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
+- run *./AttentionGRN/GNNLink/main_TRN_data2.py* to evaluate GNNLink in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
 
 
 # DeepFGRN
@@ -220,13 +220,13 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
     
 **GRN reconstruction via DeepFGRN**
 
-- run *./my_test_final/DeepFGRN/main_GRN_data1.py* to evaluate DeepFGRN in GRN reconstruction on DATA1 using independent testing.
+- run *./AttentionGRN/DeepFGRN/main_GRN_data1.py* to evaluate DeepFGRN in GRN reconstruction on DATA1 using independent testing.
 
 
 **TRN reconstruction via DeepFGRN**
 
 
-- run *./my_test_final/DeepFGRN/main_TRN_data2.py* to evaluate DeepFGRN in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
+- run *./AttentionGRN/DeepFGRN/main_TRN_data2.py* to evaluate DeepFGRN in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
 
 
 # STGRNS
@@ -237,12 +237,12 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
     
 **GRN reconstruction via STGRNS**
 
-- run *./my_test_final/STGRNS/main_GRN_data1.py* to evaluate STGRNS in GRN reconstruction on DATA1 using independent testing.
+- run *./AttentionGRN/STGRNS/main_GRN_data1.py* to evaluate STGRNS in GRN reconstruction on DATA1 using independent testing.
 
 
 **TRN reconstruction via STGRNS**
 
-- run *./my_test_final/STGRNS/main_TRN_data2.py* to evaluate STGRNS in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
+- run *./AttentionGRN/STGRNS/main_TRN_data2.py* to evaluate STGRNS in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
 
 
 # CNNC
@@ -261,11 +261,11 @@ We used TF-aware three-fold cross-validation to verify the prediction performanc
 
 **GRN reconstruction via CNNC**
 
-- run *./my_test_final/CNNC/main_GRN_data1.py* to evaluate CNNC in GRN reconstruction on DATA1 using independent testing.
+- run *./AttentionGRN/CNNC/main_GRN_data1.py* to evaluate CNNC in GRN reconstruction on DATA1 using independent testing.
 
 
 **TRN reconstruction via CNNC**
 
 
-- run *./my_test_final/CNNC/main_TRN_data2.py* to evaluate CNNC in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
+- run *./AttentionGRN/CNNC/main_TRN_data2.py* to evaluate CNNC in TRN reconstruction on DATA2 using TF-aware three-fold cross validation.
 
