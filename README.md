@@ -1,3 +1,3 @@
 # AttentionGRN
 
-Please see the branch Master  for detail.
+Please see the branch master for detail.
